@@ -1,0 +1,125 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 5px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 15%;
+}
+
+.game-over {
+  background-color: #C04C4B;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #EE6352;
+  border-top-right-radius: 180px;
+  
+}
+
+.green {
+  background-color: #57A773;
+  border-top-left-radius: 180px;
+
+}
+
+.blue {
+  background-color: #08B2E3;
+  border-bottom-right-radius: 180px;
+}
+
+.yellow {
+  background-color: #FFDF64;
+  border-bottom-left-radius: 180px;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.button {
+  box-shadow: inset 0 1px 0 0 #a6e5d1;
+  background: linear-gradient(to bottom, #4ecca3 5%, #368e72 100%);
+  background-color: #4ecca3;
+  border-radius: 3px;
+  border: 1px solid #276651;
+  display: inline-block;
+  cursor: pointer;
+  color: #E7E7E6;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  padding: 10px 24px;
+  text-decoration: none;
+  text-shadow: 2px 0 #2e2e2e;
+}
+
+.button:hover {
+  background: linear-gradient(to bottom, #368e72 5%, #4ecca3 100%);
+  background-color: #368e72;
+}
+
+.button:active {
+  position: relative;
+  top: 1px;
+}
+
+.hide {
+    display: none;
+}
+
+#score{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+@media screen and (max-width: 950px) {
+  .btn {
+    height: 150px; 
+    width: 150px; 
+    margin: 3px;
+    border: 8px solid black;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .btn {
+    height: 100px; 
+    width: 100px; 
+    margin: 2px;
+    border: 5px solid black;
+    
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .btn {
+    height: 80px; 
+    width: 80px; 
+    margin: 0px;
+    border: 2px solid black;
+    
+  }
+}
