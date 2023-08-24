@@ -116,7 +116,7 @@ function playSound(name) {
 
 //resets the game parameters
 function resetGame() {
-  $("#level-title").html("Let's go!");
+  $("#level-title").html("START!");
   $('body').removeClass("game-over");
   $(".restart").addClass("hide");
   $(".container").removeClass("hide");
